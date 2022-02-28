@@ -1,0 +1,48 @@
+/* $color-primaryblue: #2e74b7;
+$color-darkblue: #181d2a;
+$color-skyblue: #95d3e9;
+$color-skyblue-gradient:#4B6A75;
+$color-accent-grey: #a9b7cb;
+$color-primary-yellow: #efd604;
+$color-white: #ffffff;
+
+$color-black-transparent: rgba(0, 0, 0, 0.5); */
+
+.primaryblue{
+    color: #2e74b7;
+}
+.bg-primaryblue{
+    background-color: #2e74b7;
+}
+
+.darkblue{
+    color: #181d2a;
+}
+
+.bg-darkblue{
+    background-color: #181d2a !important;
+}
+
+.skyblue{
+    color:  #95d3e9;
+}
+
+.bg-skyblue{
+    background-color:  #95d3e9;
+}
+
+.accentgrey{
+    color: #a9b7cb;
+}
+
+.bg-accentgrey{
+    background-color: #a9b7cb;
+}
+
+.primaryyellow{
+    color: #efd604;
+}
+
+.bg-primaryyellow{
+    background-color: #efd604;
+}
