@@ -1,0 +1,71 @@
+$color-primaryblue: #2e74b7;
+$color-darkblue: #181d2a;
+$color-skyblue: #95d3e9;
+$color-skyblue-gradient:#4B6A75;
+$color-accent-grey: #a9b7cb;
+$color-primary-yellow: #efd604;
+$color-white: #ffffff;
+$color-black-transparent: rgba(0, 0, 0, 0.95);
+
+
+
+// navbar
+.navbar {
+    width: 250px;
+    height: 100vh;
+    position: fixed !important;
+    background-color: $color-darkblue;
+}
+
+//Color scheme
+.primaryblue{
+    color: $color-primaryblue;
+}
+.bg-primaryblue{
+    background-color: $color-primaryblue;
+}
+
+.darkblue{
+    color: $color-darkblue;
+}
+
+.bg-darkblue{
+    background-color: $color-darkblue;
+}
+
+.skyblue{
+    color:  $color-skyblue;
+}
+
+.bg-skyblue{
+    background-color:  $color-skyblue;
+}
+
+.accentgrey{
+    color: $color-accent-grey;
+}
+
+.bg-accentgrey{
+    background-color: $color-accent-grey;
+}
+
+.primaryyellow{
+    color: $color-primary-yellow;
+}
+
+.bg-primaryyellow{
+    background-color: $color-primary-yellow;
+}
+
+.bg-alphadark{
+    background-color: $color-black-transparent;
+}
+
+.primarybluegradient{
+    background-image:linear-gradient($color-primaryblue, $color-darkblue);
+}
+
+.primarybluegradientr{
+    background-image:linear-gradient(to top, $color-primaryblue, $color-darkblue);
+}
+

@@ -1,48 +1,61 @@
-/* $color-primaryblue: #2e74b7;
-$color-darkblue: #181d2a;
-$color-skyblue: #95d3e9;
-$color-skyblue-gradient:#4B6A75;
-$color-accent-grey: #a9b7cb;
-$color-primary-yellow: #efd604;
-$color-white: #ffffff;
-
-$color-black-transparent: rgba(0, 0, 0, 0.5); */
-
-.primaryblue{
-    color: #2e74b7;
-}
-.bg-primaryblue{
-    background-color: #2e74b7;
+.navbar {
+  width: 250px;
+  height: 100vh;
+  position: fixed !important;
+  background-color: #181d2a;
 }
 
-.darkblue{
-    color: #181d2a;
+.primaryblue {
+  color: #2e74b7;
 }
 
-.bg-darkblue{
-    background-color: #181d2a !important;
+.bg-primaryblue {
+  background-color: #2e74b7;
 }
 
-.skyblue{
-    color:  #95d3e9;
+.darkblue {
+  color: #181d2a;
 }
 
-.bg-skyblue{
-    background-color:  #95d3e9;
+.bg-darkblue {
+  background-color: #181d2a;
 }
 
-.accentgrey{
-    color: #a9b7cb;
+.skyblue {
+  color: #95d3e9;
 }
 
-.bg-accentgrey{
-    background-color: #a9b7cb;
+.bg-skyblue {
+  background-color: #95d3e9;
 }
 
-.primaryyellow{
-    color: #efd604;
+.accentgrey {
+  color: #a9b7cb;
 }
 
-.bg-primaryyellow{
-    background-color: #efd604;
+.bg-accentgrey {
+  background-color: #a9b7cb;
 }
+
+.primaryyellow {
+  color: #efd604;
+}
+
+.bg-primaryyellow {
+  background-color: #efd604;
+}
+
+.bg-alphadark {
+  background-color: rgba(0, 0, 0, 0.95);
+}
+
+.primarybluegradient {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#2e74b7), to(#181d2a));
+  background-image: linear-gradient(#2e74b7, #181d2a);
+}
+
+.primarybluegradientr {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#2e74b7), to(#181d2a));
+  background-image: linear-gradient(to top, #2e74b7, #181d2a);
+}
+/*# sourceMappingURL=styles.css.map */
