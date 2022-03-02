@@ -5,17 +5,11 @@ $color-skyblue-gradient:#4B6A75;
 $color-accent-grey: #a9b7cb;
 $color-primary-yellow: #efd604;
 $color-white: #ffffff;
-$color-black-transparent: rgba(0, 0, 0, 0.95);
+$color-black-transparent: rgba(0, 0, 0, 0.5);
 
 
 
 // navbar
-.navbar {
-    width: 250px;
-    height: 100vh;
-    position: fixed !important;
-    background-color: $color-darkblue;
-}
 
 //Color scheme
 .primaryblue{
@@ -58,14 +52,17 @@ $color-black-transparent: rgba(0, 0, 0, 0.95);
 }
 
 .bg-alphadark{
-    background-color: $color-black-transparent;
+    background-color: $color-black-transparent !important;
 }
 
 .primarybluegradient{
-    background-image:linear-gradient($color-primaryblue, $color-darkblue);
+    background-image:linear-gradient($color-primaryblue, $color-skyblue);
 }
 
 .primarybluegradientr{
-    background-image:linear-gradient(to top, $color-primaryblue, $color-darkblue);
+    background-image:linear-gradient(to top, $color-primaryblue, $color-skyblue);
 }
 
+.greygradient{
+    background-image:linear-gradient($color-white, rgb(250, 250, 250), $color-white);
+}

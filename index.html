@@ -20,120 +20,69 @@
 
 
   <!-- Navbar -->
-  
-  <nav class="navbar navbar-expand d-flex flex-column align-items-center navbar-dark" id="sidebar">
-    <a href="#" class="navbar-brand text-light mt-5">
-      <div class="display-6 font-weight-bold text-center">Trever<br>Hansen</div>
-    </a>
-    <ul class="navbar-nav d-flex flex-column text-center mt-5 w-100">
-      <li class="nav-item w-100">
-        <a href="#" class="nav-link p-4">Home</a>
-      </li>
-      <li class="nav-item w-100">
-        <a href="#" class="nav-link p-4">About</a>
-      </li>
-      <li class="nav-item w-100">
-        <a href="#" class="nav-link p-4">Work</a>
-      </li>
-      <li class="nav-item w-100">
-        <a href="#" class="nav-link p-4">Contact</a>
-      </li>
-    </ul>
+
+  <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-alphadark sticky">
+    <div class="container-fluid">
+      <a class="navbar-brand ms-5 ps-5" href="#">Trever Hansen</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto ps-5 me-5">
+          <li class="nav-item mx-3 px-3">
+            <a class="nav-link" aria-current="page" href="#">Work</a>
+          </li>
+          <li class="nav-item mx-3 px-3">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item mx-3 me-5 px-3">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </nav>
 
-  
-
-  <section class="text-dark p-5" style="height:500px;" ;>
-    <div class="container" style="padding-top: 20px">
-
-      <div class="row align-items-center">
-        <div class="col col-xs-12">
-          <h1 class="text-center darkblue">Front-end Web Developer</h1>
-          <h3></h3>
+  <!-- landing section -->
+  <section class="bg-darkblue text-light p-5 text-center text-sm-start">
+    <div class="container py-5">
+      <div class="d-sm-flex align-items-center justify-content-between">
+        <div class="w-50 me-5 ps-5">
+          <h1 class="display-6"><strong>Front-end <span class="primaryyellow">Web Developer</strong></span></h1>
+          <p class="lead my-4">Vitae auctor eu augue ut lectus. Porttitor eget dolor morbi non arcu risus quis varius
+            quam. Faucibus vitae aliquet nec
+            ullamcorper sit amet.</p>
         </div>
-      </div>
-
-      <div class="row pt-5 pb-5">
-        <div class="col-lg-4 text-center pt-3">
-          <i class="fa-solid fa-10x fa-laptop-code ms-auto primaryblue"></i>
-          <h2 class="mx-auto">Html, CSS<br/> & Bootstrap</h2>
-        </div>
-        <div class="col-lg-4 text-center pt-3">
-          <i class="fa-solid fa-10x fa-mobile-screen-button ms-auto accentgrey"></i>
-          <h2 class="mx-auto">Fully responsive<br/> & mobile friendly</h2>
-        </div>
-        <div class="col-lg-4 text-center pt-3">
-          <i class="fa-brands fa-10x fa-react skyblue"></i>
-          <h2>Javascript, React<br/> & Redux</h2>
-        </div>
+        <!-- temporary image -->
+        <img class="img-fluid w-50 d-none d-sm-block ms-5 ps-5 primaryblue" style="height: 300px; max-width:400px;"
+          src="/img/coderninjafiller.png" alt="React logo, temp image">
       </div>
     </div>
   </section>
 
-
-
-  <section class="p-4 container" style="margin-left: 250px;" >
-    <div>
-      <h2 class="text-center p-4">About me</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Tempor id eu nisl nunc mi. Commodo viverra maecenas accumsan lacus vel facilisis volutpat est
-        velit. Faucibus vitae aliquet nec ullamcorper sit amet. Pretium vulputate sapien nec sagittis aliquam malesuada
-        bibendum arcu. Massa massa ultricies mi quis. At consectetur lorem donec massa sapien faucibus et. Purus
-        faucibus ornare suspendisse sed nisi lacus. Consequat interdum varius sit amet mattis vulputate. Tellus
-        elementum sagittis vitae et leo duis ut diam. Erat velit scelerisque in dictum non consectetur. Orci dapibus
-        ultrices in iaculis nunc sed. Vivamus arcu felis bibendum ut. Amet aliquam id diam maecenas. Facilisis magna
-        etiam tempor orci eu. Adipiscing elit pellentesque habitant morbi tristique senectus et netus et. Ornare
-        suspendisse sed nisi lacus sed viverra tellus in hac. Eu volutpat odio facilisis mauris sit amet massa. Lacus
-        vel facilisis volutpat est velit.
-
-        Vitae auctor eu augue ut lectus. Porttitor eget dolor morbi non arcu risus quis varius quam. Nisl suscipit
-        adipiscing bibendum est ultricies. Nunc sed augue lacus viverra vitae congue. Dui accumsan sit amet nulla. Etiam
-        erat velit scelerisque in dictum. Suspendisse ultrices gravida dictum fusce ut. Nunc sed id semper risus in
-        hendrerit gravida rutrum quisque. Aliquet porttitor lacus luctus accumsan tortor posuere ac. Hendrerit dolor
-        magna eget est lorem ipsum dolor sit. Malesuada fames ac turpis egestas maecenas pharetra convallis. Risus
-        viverra adipiscing at in tellus integer feugiat scelerisque varius. Quis eleifend quam adipiscing vitae proin
-        sagittis nisl.
-      </p>
+  <!-- tech logos -->
+  <section class="bg-primaryblue text-light p-2">
+    <div class="container p-1">
+      <div class="row align-items-center d-flex justify-content-between">
+        <div class="col-md-1 d-none d-md-block"><img src="/img/HTML5_1Color_White.svg" class="w-100" alt="Html Logo"></div>
+        <div class="col-md-1 d-none d-md-block"><img src="/img/csslogoblue.png" class="w-75" alt="Css3 Logo"></div>
+        <div class="col-md-1 d-none d-md-block"><img src="/img/pngegg.png" class="w-100" alt="Sass Logo"></div>
+        <div class="col-md-1 d-none d-md-block"><img src="/img/bootstrap5 logo.png" class="w-100" alt="Bootstrap5 Logo"></div>
+        <div class="col-md-1 d-none d-md-block"><img src="/img/javascript-logo.png" class="w-100" alt="Javascript Logo"></div>
+        <div class="col-md-1 d-none d-md-block"><img src="/img/React-icon.svg.png" class="w-100" alt="React logo"></div>
+        <div class="col-md-1 d-none d-md-block"><img src="/img/redux-logo.png" class="w-100" alt="Redux Logo"></div>
+        <div class="col-md-1 d-none d-md-block"><img src="/img/GitHub-logo.png" class="w-100" alt="GitHub logo"></div>
+        <div class="col-md-1 d-none d-md-block"><img src="/img/vscode.logo.png" class="w-75" alt="VScode Logo"></div>
+      </div>
     </div>
   </section>
 
-  <section class="p-4 container" style="margin-left: 250px;">
-    <div>
-      <h2 class="text-center p-4">Work</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Tempor id eu nisl nunc mi. Commodo viverra maecenas accumsan lacus vel facilisis volutpat est
-        velit. Faucibus vitae aliquet nec ullamcorper sit amet. Pretium vulputate sapien nec sagittis aliquam malesuada
-        bibendum arcu. Massa massa ultricies mi quis. At consectetur lorem donec massa sapien faucibus et. Purus
-        faucibus ornare suspendisse sed nisi lacus. Consequat interdum varius sit amet mattis vulputate. Tellus
-        elementum sagittis vitae et leo duis ut diam. Erat velit scelerisque in dictum non consectetur. Orci dapibus
-        ultrices in iaculis nunc sed. Vivamus arcu felis bibendum ut. Amet aliquam id diam maecenas. Facilisis magna
-        etiam tempor orci eu. Adipiscing elit pellentesque habitant morbi tristique senectus et netus et. Ornare
-        suspendisse sed nisi lacus sed viverra tellus in hac. Eu volutpat odio facilisis mauris sit amet massa. Lacus
-        vel facilisis volutpat est velit.
 
-        Vitae auctor eu augue ut lectus. Porttitor eget dolor morbi non arcu risus quis varius quam. Nisl suscipit
-        adipiscing bibendum est ultricies. Nunc sed augue lacus viverra vitae congue. Dui accumsan sit amet nulla. Etiam
-        erat velit scelerisque in dictum. Suspendisse ultrices gravida dictum fusce ut. Nunc sed id semper risus in
-        hendrerit gravida rutrum quisque. Aliquet porttitor lacus luctus accumsan tortor posuere ac. Hendrerit dolor
-        magna eget est lorem ipsum dolor sit. Malesuada fames ac turpis egestas maecenas pharetra convallis. Risus
-        viverra adipiscing at in tellus integer feugiat scelerisque varius. Quis eleifend quam adipiscing vitae proin
-        sagittis nisl.
-      </p>
-    </div>
-  </section>
 
-  <section class="p-4 container" style="margin-left: 250px;">
-    <div>
-      <h2 class="text-center p-4">Contact</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Tempor id eu nisl nunc mi. Commodo viverra maecenas accumsan lacus vel facilisis volutpat est
-        velit.
-      </p>
-    </div>
-  </section>
+
+
+
 
 
 
