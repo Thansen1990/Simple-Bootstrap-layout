@@ -9,12 +9,18 @@ $color-black-transparent: rgba(0, 0, 0, 0.5);
 
 
 
-// navbar
+
+// 
+
+h1{
+    font-family: 'roboto condensed';
+}
 
 //Color scheme
 .primaryblue{
     color: $color-primaryblue;
 }
+
 .bg-primaryblue{
     background-color: $color-primaryblue;
 }
